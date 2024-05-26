@@ -1,0 +1,13 @@
+id: "crazy_miner"
+display-name: "Minerador Louco"
+description:
+  - 'Algo aqui'
+  -
+consumable:
+  enabled: true
+  health: 10
+  mana: 100
+  stamina: 10
+
+config:
+  cooldown: 10

@@ -1,0 +1,42 @@
+base:
+  name: Master Zombie
+  id: master_zombie
+  type: ZOMBIE
+
+levels:
+  '1':
+    base:
+      max-health: 200.0
+      strength: 20
+      speed: 10
+      defense: 20
+    options:
+      spawn-default: false
+      chance: 40.0
+    custom:
+      cosmetic:
+        balloon: 'rpg:black'
+        backpack: 'rpg:black'
+      hand:
+        key: minecraft
+        type: STICK
+        enchantments:
+          - 'sharpness 5'
+      off-hand:
+        key: minecraft
+        type: STICK
+        enchantments:
+          - 'protection 5'
+      armor:
+        helmet:
+          key: minecraft
+          type: DIAMOND_HELMET
+          enchantments:
+            - 'protection 5'
+        chestplate:
+          key: minecraft
+          type: LEATHER_CHESTPLATE
+          color: '#2b2b2b'
+          enchantments:
+            - 'protection 5'
+

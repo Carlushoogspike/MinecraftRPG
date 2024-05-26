@@ -1,0 +1,29 @@
+base:
+  id: FULL_SWORD
+  name: teste
+  base: DIAMOND_SWORD
+  breakble: true
+  max-durability: 100
+options:
+  tired: true
+  tier: RARE
+  leveled: true
+  level: 100
+  lore:
+    - "&7Faça um ataque rapido com ela,"
+    - "&7e recupere sua &bStamina &62.5x &7mais rapido."
+stats:
+  use-health: 10
+  gain-health: 5
+  use-mana: 20
+  gain-mana: 10
+  use-stamina: 30
+  gain-stamina: 15
+  recover-stamina: 5
+  attack-damage: 50
+  attack-speed: 20
+  attack-recover: 10
+  critical-chance: 0.1
+  critical-damage: 1.5
+  fortune-chance: 0.2
+  fortune-percent: 0.5

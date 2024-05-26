@@ -1,0 +1,12 @@
+blocks:
+  iron_block:
+    break:
+      xp: 0.0
+      price: 0.0
+      drop-percentage: 0.0
+      required-level: 10.0
+    place:
+      xp: 0.0
+      price: 0.0
+      drop-percentage: 0.0
+      required-level: 0.0

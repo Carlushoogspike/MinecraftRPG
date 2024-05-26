@@ -1,0 +1,4 @@
+name: MinecraftRPG
+version: '${version}'
+main: carlos.dev.games.core.MinecraftRPG
+api-version: '1.20'

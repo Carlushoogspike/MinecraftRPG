@@ -1,0 +1,17 @@
+  id: "mining"
+  enabled: false
+  display-name: "Mineração"
+  description:
+    - 'Minere para subir de nivel'
+  abilities:
+    - crazy-miner
+    - luck-miner
+  level:
+    start-level: 1
+    max-level: 10
+  base:
+    multiplier: 10.0
+    base-xp: 100.0
+    formula: 'multiplier * (level - 2) ^ 2 / 5'
+rewards:
+  '1':
